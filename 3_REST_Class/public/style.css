@@ -1,0 +1,17 @@
+h1{
+    color: rgb(174, 8, 8);
+}
+
+.post{
+    background: lightblue;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.user{
+    font-style: italic;
+}
+.content{
+    color: rgb(97, 78, 78);
+}
