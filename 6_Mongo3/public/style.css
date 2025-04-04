@@ -1,0 +1,42 @@
+body{
+    justify-items: center;
+}
+.chats{
+    background-color: rgb(151, 191, 225);
+    width: 500px;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 10px; */
+    background-color: rgb(59, 165, 59);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+button{
+    padding: 10px 25px;
+    background-color: rgb(139, 74, 199);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background:rgb(118, 18, 211);
+}
+
+/* properties for new.ejs*/
+#from, #msg, #to{
+    width: 400px;
+}
+#from, #to{
+    height: 30px;
+}
+
